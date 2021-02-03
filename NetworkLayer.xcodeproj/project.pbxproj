@@ -6,14 +6,9 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		CEFFBA1425C475E700B96435 /* NetworkLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CEFFBA1225C475E700B96435 /* NetworkLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		CEFFBA0F25C475E700B96435 /* NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFFBA1225C475E700B96435 /* NetworkLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkLayer.h; sourceTree = "<group>"; };
-		CEFFBA1325C475E700B96435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE5C50525CABB7D005F1F3E /* Network layer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Network layer"; sourceTree = "<group>"; };
+		CEFFBA0F25C475E700B96435 /* NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NetworkLayer.framework; path = "/Users/user/Documents/NetworkLayer/build/Debug-iphoneos/NetworkLayer.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,26 +25,8 @@
 		CEFFBA0525C475E700B96435 = {
 			isa = PBXGroup;
 			children = (
-				CEFFBA1125C475E700B96435 /* NetworkLayer */,
-				CEFFBA1025C475E700B96435 /* Products */,
+				CEE5C50525CABB7D005F1F3E /* Network layer */,
 			);
-			sourceTree = "<group>";
-		};
-		CEFFBA1025C475E700B96435 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CEFFBA0F25C475E700B96435 /* NetworkLayer.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CEFFBA1125C475E700B96435 /* NetworkLayer */ = {
-			isa = PBXGroup;
-			children = (
-				CEFFBA1225C475E700B96435 /* NetworkLayer.h */,
-				CEFFBA1325C475E700B96435 /* Info.plist */,
-			);
-			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +36,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFFBA1425C475E700B96435 /* NetworkLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +82,7 @@
 				Base,
 			);
 			mainGroup = CEFFBA0525C475E700B96435;
-			productRefGroup = CEFFBA1025C475E700B96435 /* Products */;
+			productRefGroup = CEFFBA0525C475E700B96435;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
