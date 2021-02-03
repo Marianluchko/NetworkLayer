@@ -88,3 +88,5 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+Network layer/.swiftpm/xcode/xcshareddata/xcschemes/Network layer.xcscheme
+NetworkLayer.xcodeproj/xcshareddata/xcschemes/NetworkLayer.xcscheme
